@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>Não.085df886-8e5e-11ec-ace2-d8cb8a852aed.jpg</filename>
+	<path>C:\Users\jeffe\Desktop\git\librasVC\images\collectedimages\Não.085df886-8e5e-11ec-ace2-d8cb8a852aed.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>não</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>259</xmin>
+			<ymin>217</ymin>
+			<xmax>368</xmax>
+			<ymax>367</ymax>
+		</bndbox>
+	</object>
+</annotation>

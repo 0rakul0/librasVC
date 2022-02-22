@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>Sim.f44ae6b8-8e5d-11ec-9ff1-d8cb8a852aed.jpg</filename>
+	<path>C:\Users\jeffe\Desktop\git\librasVC\images\collectedimages\Sim.f44ae6b8-8e5d-11ec-9ff1-d8cb8a852aed.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sim</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>253</xmin>
+			<ymin>294</ymin>
+			<xmax>348</xmax>
+			<ymax>424</ymax>
+		</bndbox>
+	</object>
+</annotation>
