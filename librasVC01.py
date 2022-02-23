@@ -31,12 +31,16 @@ labels = [
     {'name': 'obrigado', 'id': 5},
 ]
 
-with open(ANNOTATION_PATH + '\label_map.pbtxt' + 'w') as f:
+with open(ANNOTATION_PATH + '/label_map.txt', 'w') as f:
     for label in labels:
         f.write('item {\n')
         f.write('\tname:\'{}\'\n'.format(label['name']))
         f.write('\tid:{}\n'.format(label['id']))
         f.write('}\n')
+
+
+#{SCRIPTS_PATH + '/generate_tfrecord.py'} - x{IMAGE_PATH + '/train'} - l{ANNOTATION_PATH + '/label_map.pbtxt'} - o{ANNOTATION_PATH + '/train.record'}
+#{SCRIPTS_PATH + '/generate_tfrecord.py'} - x{IMAGE_PATH + '/test'} - l{ANNOTATION_PATH + '/label_map.pbtxt'} - o{ANNOTATION_PATH + '/test.record'}
 
 for label in labels:
     caminho = ('images\collectedimages\\{}'.format(label))

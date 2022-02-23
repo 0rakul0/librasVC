@@ -1,0 +1,20 @@
+item{
+    name:'oi'
+    id:1
+}
+item{
+    name:'não'
+    id:2
+}
+item{
+    name:'sim'
+    id:3
+}
+item{
+    name:'obrigado'
+    id:4
+}
+item{
+    name:'eu te amo'
+    id:5
+}
